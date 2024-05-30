@@ -1,0 +1,2 @@
+# NetflixCloneMAUImyyrsepp
+ .net7 aaaaaaaaaaaaaaaaaaaaaaaaaghhhhhhhhhhh
