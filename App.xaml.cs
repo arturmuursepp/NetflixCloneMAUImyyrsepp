@@ -1,4 +1,4 @@
-﻿namespace NetflixCloneMAUImyyrseppmyyrsepp;
+﻿namespace NetflixCloneMAUImyyrsepp;
 
 public partial class App : Application
 {

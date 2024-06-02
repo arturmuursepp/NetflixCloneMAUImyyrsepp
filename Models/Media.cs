@@ -1,4 +1,4 @@
-﻿namespace NetflixCloneMAUImyyrseppmyyrsepp.Models
+﻿namespace NetflixCloneMAUImyyrsepp.Models
 {
     public class Media
     {

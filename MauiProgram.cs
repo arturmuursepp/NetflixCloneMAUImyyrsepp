@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
-using NetflixCloneMAUImyyrseppmyyrsepp.Pages;
-using NetflixCloneMAUImyyrseppmyyrsepp.Services;
-using NetflixCloneMAUImyyrseppmyyrsepp.ViewModels;
+using NetflixCloneMAUImyyrsepp.Pages;
+using NetflixCloneMAUImyyrsepp.Services;
+using NetflixCloneMAUImyyrsepp.ViewModels;
 
-namespace NetflixCloneMAUImyyrseppmyyrsepp;
+namespace NetflixCloneMAUImyyrsepp;
 
 public static class MauiProgram
 {
@@ -31,6 +31,9 @@ public static class MauiProgram
 		builder.Services.AddSingleton<HomeViewModel>();
 		builder.Services.AddSingleton<MainPage>();
 
-		return builder.Build();
+        builder.Services.AddSingleton<CategoriesViewModel>();
+        builder.Services.AddSingleton<CategoriesPage>();
+
+        return builder.Build();
 	}
 }

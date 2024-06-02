@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace NetflixCloneMAUImyyrseppmyyrsepp;
+namespace NetflixCloneMAUImyyrsepp;
 
 [Application]
 public class MainApplication : MauiApplication
